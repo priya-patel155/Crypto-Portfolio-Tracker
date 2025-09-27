@@ -279,9 +279,6 @@ class _PortfolioContent extends StatelessWidget {
   }
 
   void _showAddAssetDialog(BuildContext context) {
-    final coinsState = context.read<CoinsBloc>().state;
-
-
     showDialog(
       context: context,
       builder: (dialogContext) => MultiBlocProvider(

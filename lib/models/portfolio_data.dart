@@ -29,8 +29,6 @@ class PortfolioData {
 
   static Future<void> save(PortfolioData portfolio) async {
     final db = PortfolioDatabase.instance;
-    final database = await db.database;
-   // await database.delete('holdings');
 
     for (final holding in portfolio.holdings!) {
       await db.upsertHolding(holding);
