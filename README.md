@@ -17,9 +17,7 @@
 3. Run the app:
     ```bash
     flutter run
-### **2️⃣ Instructions on How to Run the Application**
-
-## ▶️ Instructions to Run the Application
+### Instructions on How to Run the Application
 
 1. Ensure that all prerequisites (Flutter SDK, IDE, emulator/device) are properly set up.  
 2. Navigate to the project directory:
@@ -29,13 +27,13 @@
 4. Execute the following command:
     ```bash
     flutter run
-### **3️⃣ Provide a Recorded Video of the Performed Task**
-## 🎥 Demo Video
+### Recorded Video of the Performed Task
+## 🎥 Crypto-Portfolio-Tracker Video
 
 A recorded demonstration of the app usage is included in the [`media`](./media) folder.  
 👉 https://github.com/priya-patel155/Crypto-Portfolio-Tracker/blob/main/media/screen-20250927-125917.mp4  
 
-## 4️⃣🏗️ Architectural Choices
+## 🏗️ Architectural Choices
 
 This application follows **Clean Architecture** with a separation of concerns:  
 
@@ -53,7 +51,7 @@ This application follows **Clean Architecture** with a separation of concerns:
 
 This structure ensures maintainability, scalability, and easier testing.  
 
-## 5️⃣📦 Third-Party Libraries
+## 📦 Third-Party Libraries
 
 The following dependencies are used in this project:
 
